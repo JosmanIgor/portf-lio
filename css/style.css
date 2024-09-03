@@ -1,1 +1,104 @@
+/* reset geral */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
 
+/* Links internos */
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #160f63;
+    height: 80px;
+    font-size: 24px;
+    padding-top: 22px;
+}
+
+.link {
+    color: #fff;
+}
+
+/* sobre mim */
+#sobre_mim {
+    border-bottom: 1px solid black;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#sobre_mim h1 {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+#sobre_mim p {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* formação */
+#formacao {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    border-bottom: 1px solid black;
+}
+
+#formacao h2 {
+    padding-bottom: 80px;
+}
+
+/* portfólio */
+#portfolio {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/* formulário de contato */
+#contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    min-width: 600px;
+    margin: 100px auto;
+    border-radius: 7px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+#contato input,textarea {
+    margin-top: 20px;
+    min-width: 320px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: 1px solid #c1c1c1;
+}
+
+#contato button {
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #160f63;
+    color: white;
+    margin-bottom: 40px;
+    border: none;
+    width: 320px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img {
+    padding-top: 50px;
+}
+
+#portfolio h3 {
+    font-size: 30px;
+}
